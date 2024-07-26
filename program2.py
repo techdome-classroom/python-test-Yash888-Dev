@@ -1,7 +1,6 @@
 def decode_message( s: str, p: str) -> bool:
 
 # write your code here
-    def decode_message(s: str, p: str) -> bool:
      m, n = len(s), len(p)
     
     # Create a 2D DP table with dimensions (m+1) x (n+1)
