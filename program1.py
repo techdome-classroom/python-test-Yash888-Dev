@@ -6,7 +6,8 @@ class Solution:
             return 0
         
         def dfs(x, y):
-            # Base conditions to stay within the grid bounds
+            
+            
             if x < 0 or x >= rows or y < 0 or y >= cols or grid[x][y] == 'W' or visited[x][y]:
                 return
             # Mark the cell as visited
