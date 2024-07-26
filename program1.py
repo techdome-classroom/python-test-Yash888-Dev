@@ -4,8 +4,7 @@ class Solution:
     #    write your code here
                     
         return 0
-class Solution:
-    def getTotalIsles(self, grid: list[list[str]]) -> int:
+
         def dfs(i, j):
             if i < 0 or j < 0 or i >= len(grid) or j >= len(grid[0]) or grid[i][j] != 'L':
                 return
