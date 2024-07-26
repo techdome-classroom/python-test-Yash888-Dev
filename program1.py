@@ -17,4 +17,4 @@ class Solution:
                 if grid[i][j] == 'L':
                     count += 1
                     dfs(i, j)            
-        return 0
+        return count
