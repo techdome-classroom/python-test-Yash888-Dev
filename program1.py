@@ -4,7 +4,7 @@ class Solution:
     #    write your code here
         def dfs(i, j):
             if i < 0 or j < 0 or i >= len(grid) or j >= len(grid[0]) or grid[i][j] != 'L':
-                return
+                return 
             grid[i][j] = 'V'  # Mark as visited
             dfs(i + 1, j)
             dfs(i - 1, j)
