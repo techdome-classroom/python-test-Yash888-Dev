@@ -10,7 +10,8 @@ class Solution:
             
             if x < 0 or x >= rows or y < 0 or y >= cols or grid[x][y] == 'W' or visited[x][y]:
                 return
-            # Mark the cell as visited
+           
+           
             visited[x][y] = True
             # Visit all 4 possible directions (up, down, left, right)
             dfs(x - 1, y)
