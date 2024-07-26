@@ -24,12 +24,12 @@ def decode_message( s: str, p: str) -> bool:
             if p[j - 1] == '*':
                 
                 dp[i][j] = dp[i][j - 1] or dp[i - 1][j]
-                
+
             elif p[j - 1] == '?' or p[j - 1] == s[i - 1]:
                 
                 
                 dp[i][j] = dp[i - 1][j - 1]
     
-    # The result is whether the entire message matches the entire pattern
+    
      return dp[m][n]
      return False
