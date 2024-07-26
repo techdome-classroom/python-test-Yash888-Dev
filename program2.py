@@ -11,7 +11,8 @@ def decode_message( s: str, p: str) -> bool:
     
      dp[0][0] = True
     
-    # Fill in the first row for patterns that only consist of '*'
+    
+    
      for j in range(1, n + 1):
         if p[j - 1] == '*':
             dp[0][j] = dp[0][j - 1]
