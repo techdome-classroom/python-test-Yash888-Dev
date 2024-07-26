@@ -13,7 +13,8 @@ class Solution:
            
            
             visited[x][y] = True
-            # Visit all 4 possible directions (up, down, left, right)
+            
+            
             dfs(x - 1, y)
             dfs(x + 1, y)
             dfs(x, y - 1)
