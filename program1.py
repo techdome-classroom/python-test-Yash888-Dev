@@ -19,7 +19,3 @@ class Solution:
                     count += 1
                     dfs(i, j)            
         return 0
-class Solution:
-    def getTotalIsles(self, grid: list[list[str]]) -> int:
-        
-        return count
