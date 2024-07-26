@@ -7,7 +7,8 @@ def decode_message( s: str, p: str) -> bool:
     
      dp = [[False] * (n + 1) for _ in range(m + 1)]
     
-    # An empty pattern matches an empty message
+    
+    
      dp[0][0] = True
     
     # Fill in the first row for patterns that only consist of '*'
